@@ -7,10 +7,10 @@
   "description": "A collection of handlebars helpers",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/uplift/bullhorn-handlebars-helpers"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/uplift/bullhorn-handlebars-helpers/issues"
   },
   "keywords": [
     "handlebars",
