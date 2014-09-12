@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit Tests</title>
+        <link rel="stylesheet" href="bower_components/mocha/mocha.css"/>
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <script src="bower_components/mocha/mocha.js"></script>
+        <script src="bower_components/chai/chai.js"></script>
+        <script>
+            // Chai
+            window.expect = chai.expect;
+
+            // globals mocha
+            mocha.setup( 'bdd' );
+        </script>
+        <!-- <script src="bower_components/underscore/underscore.js"></script> -->
+        <script src="bower_components/handlebars/handlebars.js"></script>
+        <script src="bower_components/moment/moment.js"></script>
+        <!-- array -->
+        <script src="../src/array/join.js"></script>
+        <script src="specs/array/JoinSpec.js"></script>
+        <!-- collection -->
+        <!-- comparison -->
+        <script src="../src/comparison/if-eq.js"></script>
+        <script src="specs/comparison/IfEqSpec.js"></script>
+        <script src="../src/comparison/if-noteq.js"></script>
+        <script src="specs/comparison/IfNotEqSpec.js"></script>
+        <script src="../src/comparison/if-eqor.js"></script>
+        <script src="specs/comparison/IfEqOrSpec.js"></script>
+        <script src="../src/comparison/if-gt.js"></script>
+        <script src="specs/comparison/IfGtSpec.js"></script>
+        <script src="../src/comparison/if-gte.js"></script>
+        <script src="specs/comparison/IfGteSpec.js"></script>
+        <script src="../src/comparison/if-lt.js"></script>
+        <script src="specs/comparison/IfLtSpec.js"></script>
+        <script src="../src/comparison/if-lte.js"></script>
+        <script src="specs/comparison/IfLteSpec.js"></script>
+        <!-- date -->
+        <!-- form -->
+        <script src="../src/form/select-options-list.js"></script>
+        <script src="specs/form/SelectOptionsListSpec.js"></script>
+        <!-- math -->
+        <script src="../src/math/add.js"></script>
+        <script src="specs/math/AddSpec.js"></script>
+        <script src="../src/math/divide.js"></script>
+        <script src="specs/math/DivideSpec.js"></script>
+        <script src="../src/math/multiply.js"></script>
+        <script src="specs/math/MultiplySpec.js"></script>
+        <script src="../src/math/subtract.js"></script>
+        <script src="specs/math/SubtractSpec.js"></script>
+        <!-- string -->
+        <script src="../src/string/capitalize.js"></script>
+        <script src="specs/string/CapitalizeSpec.js"></script>
+        <script src="../src/string/encodeURIComponent.js"></script>
+        <script src="specs/string/EncodeURIComponentSpec.js"></script>
+        <script src="../src/string/lowercase.js"></script>
+        <script src="specs/string/LowercaseSpec.js"></script>
+        <script src="../src/string/uppercase.js"></script>
+        <script src="specs/string/UppercaseSpec.js"></script>
+        <!-- Run Specs -->
+        <script src="specRunner.js"></script>
+    </body>
+</html>
