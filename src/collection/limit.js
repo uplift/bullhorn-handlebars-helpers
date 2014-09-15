@@ -1,7 +1,7 @@
 // Collection Limit Helper
 // Loop over a limited subset of a collection.
-// usage: {{#limit items 3 5}}do something {{/limit}} - from 3rd to 5th items in collection
-// usage: {{#limit items 7}}do something {{/limit}} - from 1st to 7th items in collection
+// Usage: {{#limit items 3 5}}do something {{/limit}} - from 3rd to 5th items in collection
+// Usage: {{#limit items 7}}do something {{/limit}} - from 1st to 7th items in collection
 ( function( root, factory ) {
     // Set up appropriately for the environment.
     // Start with AMD.
