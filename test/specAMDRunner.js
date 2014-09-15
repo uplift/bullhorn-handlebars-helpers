@@ -15,6 +15,7 @@ if ( window.__karma__ ) {
     baseUrl = '../src';
     deps = [
         'tests/specs/array/JoinSpec',
+        'tests/specs/collection/LimitSpec',
         'tests/specs/comparison/IfEqOrSpec',
         'tests/specs/comparison/IfEqSpec',
         'tests/specs/comparison/IfGteSpec',
