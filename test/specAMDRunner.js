@@ -22,6 +22,7 @@ if ( window.__karma__ ) {
         'tests/specs/comparison/IfLteSpec',
         'tests/specs/comparison/IfltSpec',
         'tests/specs/comparison/IfNotEqSpec',
+        'tests/specs/date/AgoSpec',
         'tests/specs/date/FormatDateSpec',
         'tests/specs/date/FromNowSpec',
         'tests/specs/date/NowSpec',
