@@ -1,3 +1,5 @@
+// fromNow using Moment.js
+// Usage: {{fromNow date true}}
 ( function( root, factory ) {
     // Set up appropriately for the environment.
     // Start with AMD.
