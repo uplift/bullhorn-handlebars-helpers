@@ -16,6 +16,7 @@ if ( window.__karma__ ) {
     deps = [
         'tests/specs/array/JoinSpec',
         'tests/specs/collection/LimitSpec',
+        'tests/specs/collection/WhereSpec',
         'tests/specs/comparison/IfEqOrSpec',
         'tests/specs/comparison/IfEqSpec',
         'tests/specs/comparison/IfGteSpec',
@@ -47,7 +48,7 @@ if ( window.__karma__ ) {
 requirejs.config({
     baseUrl: baseUrl,
     paths: {
-        // "underscore"        : "bower_components/underscore/underscore",
+        "underscore"        : "bower_components/underscore/underscore",
         "handlebars"        : "../test/bower_components/handlebars/handlebars.amd",
         "moment"            : "../test/bower_components/moment/moment",
         "tests"             : "../test"
