@@ -48,7 +48,7 @@ if ( window.__karma__ ) {
 requirejs.config({
     baseUrl: baseUrl,
     paths: {
-        "underscore"        : "bower_components/underscore/underscore",
+        "underscore"        : "../test/bower_components/underscore/underscore",
         "handlebars"        : "../test/bower_components/handlebars/handlebars.amd",
         "moment"            : "../test/bower_components/moment/moment",
         "tests"             : "../test"
