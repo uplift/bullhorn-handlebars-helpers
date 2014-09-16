@@ -38,7 +38,8 @@
   "dependencies": {
     "handlebars": "~2.0.0",
     "moment": "~2.8.3",
-    "underscore": "~1.7.0"
+    "underscore": "~1.7.0",
+    "pagedown": "~1.1.0"
   },
   "devDependencies": {
     "mocha": "~1.21.4",

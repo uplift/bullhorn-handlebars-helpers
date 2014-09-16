@@ -51,6 +51,7 @@
     "karma-safari-launcher": "^0.1.1",
     "mocha": "^1.21.4",
     "moment": "^2.8.3",
+    "pagedown": "^1.1.0",
     "requirejs": "^2.1.15",
     "underscore": "^1.7.0"
   }
