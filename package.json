@@ -5,6 +5,10 @@
     "Uplift <git@upliftingcode.com>"
   ],
   "description": "A collection of handlebars helpers",
+  "script": {
+    "test": "gulp test-node"
+  },
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/uplift/bullhorn-handlebars-helpers"
