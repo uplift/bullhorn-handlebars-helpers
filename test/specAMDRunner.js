@@ -39,6 +39,7 @@ if ( window.__karma__ ) {
         'tests/specs/string/CapitalizeSpec',
         'tests/specs/string/EncodeURIComponentSpec',
         'tests/specs/string/LowercaseSpec',
+        'tests/specs/string/MarkdownSpec',
         'tests/specs/string/UppercaseSpec'
     ];
     callback = mocha.run;
@@ -51,7 +52,13 @@ requirejs.config({
         "underscore"        : "../test/bower_components/underscore/underscore",
         "handlebars"        : "../test/bower_components/handlebars/handlebars.amd",
         "moment"            : "../test/bower_components/moment/moment",
+        "pagedown"          : "../test/bower_components/pagedown/Markdown.Converter",
         "tests"             : "../test"
+    },
+    shim: {
+        "pagedown": {
+            exports: "Markdown"
+        }
     },
     deps: deps,
     callback: function() {
