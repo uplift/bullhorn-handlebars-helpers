@@ -45,13 +45,13 @@ gulp.task('test-amd', [ 'lint', 'codestyle', 'bower-install' ], function( cb ) {
     }, cb);
 });
 
-gulp.task('lint', function() {
+gulp.task('lint', [ 'npm-install' ], function() {
     return gulp.src( [ 'src/**/*.js' ] )
         .pipe( jshint() )
         .pipe( jshint.reporter( 'default' ) );
 });
 
-gulp.task('codestyle', function() {
+gulp.task('codestyle', [ 'npm-install' ], function() {
     return gulp.src( [ 'src/**/*.js' ] )
         .pipe(jscs())
         .pipe(lintspaces({
