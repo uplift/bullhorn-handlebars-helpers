@@ -17,6 +17,7 @@ if ( window.__karma__ ) {
         'tests/specs/array/JoinSpec',
         'tests/specs/collection/LimitSpec',
         'tests/specs/collection/WhereSpec',
+        'tests/specs/comparison/ContainsSpec',
         'tests/specs/comparison/EndsWithSpec',
         'tests/specs/comparison/IfEqOrSpec',
         'tests/specs/comparison/IfEqSpec',
