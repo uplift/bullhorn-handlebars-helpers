@@ -1,10 +1,14 @@
 {
-  "name": "Bullhorn",
+  "name": "bullhorn-handlebars-helpers",
   "version": "0.5.0",
   "authors": [
     "Uplift <git@upliftingcode.com>"
   ],
   "description": "A collection of handlebars helpers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uplift/bullhorn-handlebars-helpers"
+  },
   "moduleType": [
     "amd",
     "globals",
