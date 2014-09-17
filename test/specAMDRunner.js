@@ -43,6 +43,7 @@ if ( window.__karma__ ) {
         'tests/specs/string/EncodeURIComponentSpec',
         'tests/specs/string/LowercaseSpec',
         'tests/specs/string/MarkdownSpec',
+        'tests/specs/string/TruncateSpec',
         'tests/specs/string/UppercaseSpec'
     ];
     callback = mocha.run;
