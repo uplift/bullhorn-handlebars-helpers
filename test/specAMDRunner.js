@@ -16,6 +16,7 @@ if ( window.__karma__ ) {
     deps = [
         'tests/specs/array/JoinSpec',
         'tests/specs/collection/LimitSpec',
+        'tests/specs/collection/ReverseEachSpec',
         'tests/specs/collection/WhereSpec',
         'tests/specs/comparison/ContainsSpec',
         'tests/specs/comparison/EndsWithSpec',
