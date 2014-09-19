@@ -95,10 +95,7 @@ Detailed description of each helper can be found in their corresponding director
 
 ### Form
 
-  * List
-  * Ordered List
   * Options List
-  * Unordered List
 
 ### Format
 
