@@ -34,6 +34,7 @@ if ( window.__karma__ ) {
         'tests/specs/date/NowSpec',
         'tests/specs/form/SelectOptionsListSpec',
         'tests/specs/format/ToFixedSpec',
+        'tests/specs/html/ListSpec',
         'tests/specs/math/AddSpec',
         'tests/specs/math/CeilSpec',
         'tests/specs/math/DivideSpec',
