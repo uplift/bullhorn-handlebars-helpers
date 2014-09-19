@@ -1,16 +1,21 @@
-# Bullhorn Handlebars helpers
+# Bullhorn Handlebars Helpers
 
 Coming Soon!
+
+[![Dependency Status](https://david-dm.org/uplift/bullhorn-handlebars-helpers.svg)](https://david-dm.org/uplift/bullhorn-handlebars-helpers)
+[![devDependency Status](https://david-dm.org/uplift/bullhorn-handlebars-helpers/dev-status.svg)](https://david-dm.org/uplift/bullhorn-handlebars-helpers#info=devDependencies)
+
+A collection of handlebars helpers to be used with [Handlebars](http://handlebarsjs.com/) templating.
 
 ## Install
 
 ### Bower
 
-*TODO*
+    TODO
 
 ### NPM
 
-*TODO*
+    TODO
 
 ## Usage
 
@@ -56,7 +61,77 @@ In an AMD environment, load the helper as you would any other AMD module. You'll
 
 ## Helpers
 
-*TODO*
+Detailed description of each helper can be found in their corresponding directory README under the **src** directory.
+
+### Array
+
+  * Join
+
+### Collection
+
+  * Limit
+  * Reverse Each
+  * Where
+
+### Comparison
+
+  * Contains
+  * Ends With
+  * If Equal
+  * If Equal Or
+  * If Greater Than
+  * If Greater Than Or Equal
+  * If Less Than
+  * If Less Than Or Equal
+  * If Not Equal
+  * Starts With
+
+### Date
+
+  * Ago
+  * Format Date
+  * From Now
+  * Now
+
+### Form
+
+  * List
+  * Ordered List
+  * Options List
+  * Unordered List
+
+### Format
+
+  * To Fixed
+
+### HTML
+
+  * List
+  * Ordered List
+  * Unordered List
+
+### Math
+
+  * Add
+  * Ceil
+  * Divide
+  * Floor
+  * Multiply
+  * Round
+  * Subtract
+
+### Misc
+
+  * Debug
+
+### String
+
+  * Capitalize
+  * Encode URI Component
+  * Lowercase
+  * Markdown
+  * Truncate
+  * Uppercase
 
 ## License
 
