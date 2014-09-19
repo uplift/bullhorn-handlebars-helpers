@@ -35,6 +35,8 @@ if ( window.__karma__ ) {
         'tests/specs/form/SelectOptionsListSpec',
         'tests/specs/format/ToFixedSpec',
         'tests/specs/html/ListSpec',
+        'tests/specs/html/OrderedListSpec',
+        'tests/specs/html/UnorderedListSpec',
         'tests/specs/math/AddSpec',
         'tests/specs/math/CeilSpec',
         'tests/specs/math/DivideSpec',
