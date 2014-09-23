@@ -2,6 +2,8 @@
 
 Coming Soon!
 
+[![Bower version](https://badge.fury.io/bo/bullhorn.svg)](http://badge.fury.io/bo/bullhorn)
+[![NPM version](https://badge.fury.io/js/bullhorn.svg)](http://badge.fury.io/js/bullhorn)
 [![Dependency Status](https://david-dm.org/uplift/bullhorn-handlebars-helpers.svg)](https://david-dm.org/uplift/bullhorn-handlebars-helpers)
 [![devDependency Status](https://david-dm.org/uplift/bullhorn-handlebars-helpers/dev-status.svg)](https://david-dm.org/uplift/bullhorn-handlebars-helpers#info=devDependencies)
 
@@ -11,11 +13,11 @@ A collection of handlebars helpers to be used with [Handlebars](http://handlebar
 
 ### Bower
 
-    TODO
+    bower install bullhorn-handlebars-helpers
 
 ### NPM
 
-    TODO
+    npm install bullhorn-handlebars-helpers
 
 ## Usage
 
