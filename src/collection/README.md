@@ -20,7 +20,7 @@ Accepts a collection, an optional offset number (**Defaults:** 0) and a limit nu
 
 ## Reverse Each
 
-Like the built in each but in reverse order.  Also accepts optional offset and limit numbers that work the same as the limit helper above but in reverse.
+Like the built in each but in reverse order.  Also accepts optional offset (**Defaults:** 0) and limit numbers (**Defaults:** collection.length) that work the same as the limit helper above but in reverse.
 
 **Usage:**
 
@@ -34,7 +34,7 @@ Like the built in each but in reverse order.  Also accepts optional offset and l
 
 ## Where
 
-Accepts a collection, a key property name and a value. Filters the collection (using *underscore's/lodash's* _.where) to the objects matching the key value combination and loops over those object only.
+Accepts a collection, a key property name, a value and an optional limit (**Defaults:** filtered collection length). Filters the collection (using *underscore's/lodash's* _.where) to the objects matching the key value combination and loops over those object only.
 
 **Usage:**
 
