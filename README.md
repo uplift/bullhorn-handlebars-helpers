@@ -1,7 +1,5 @@
 # Bullhorn Handlebars Helpers
 
-Coming Soon!
-
 [![Bower version](https://badge.fury.io/bo/bullhorn.svg)](http://badge.fury.io/bo/bullhorn)
 [![NPM version](https://badge.fury.io/js/bullhorn.svg)](http://badge.fury.io/js/bullhorn)
 [![Dependency Status](https://david-dm.org/uplift/bullhorn-handlebars-helpers.svg)](https://david-dm.org/uplift/bullhorn-handlebars-helpers)
