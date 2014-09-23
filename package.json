@@ -28,7 +28,6 @@
     "string"
   ],
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "handlebars": "^2.0.0",
     "moment": "^2.8.3",
