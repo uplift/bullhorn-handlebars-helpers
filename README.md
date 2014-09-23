@@ -1,7 +1,7 @@
 # Bullhorn Handlebars Helpers
 
-[![Bower version](https://badge.fury.io/bo/bullhorn.svg)](http://badge.fury.io/bo/bullhorn)
-[![NPM version](https://badge.fury.io/js/bullhorn.svg)](http://badge.fury.io/js/bullhorn)
+[![Bower version](https://badge.fury.io/bo/bullhorn-handlebars-helpers.svg)](http://badge.fury.io/bo/bullhorn-handlebars-helpers)
+[![NPM version](https://badge.fury.io/js/bullhorn-handlebars-helpers.svg)](http://badge.fury.io/js/bullhorn-handlebars-helpers)
 [![Dependency Status](https://david-dm.org/uplift/bullhorn-handlebars-helpers.svg)](https://david-dm.org/uplift/bullhorn-handlebars-helpers)
 [![devDependency Status](https://david-dm.org/uplift/bullhorn-handlebars-helpers/dev-status.svg)](https://david-dm.org/uplift/bullhorn-handlebars-helpers#info=devDependencies)
 
