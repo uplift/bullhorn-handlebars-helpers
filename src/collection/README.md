@@ -2,6 +2,8 @@
 
 ## Limit
 
+Accepts a collection, an optional offset number (**Defaults:** 0) and a limit number. The limit number is the size of the results the collection should loop over. The offset number is the starting point within the collection the loop should start from.
+
 **Usage:**
 
     // collection = [ { id: 1, name: "Anne" }, { id: 2, name: "Dave" }, { id: 1, name: "Matt" } ]
@@ -9,10 +11,16 @@
         {{name}}
     {{/limit}}
     // Output => "Anne"
+    {{#limit collection 1 2}}
+        {{name}}
+    {{/limit}}
+    // Output => "Dave"
 
 **Other Dependencies:** N/A
 
 ## Reverse Each
+
+Like the built in each but in reverse order.  Also accepts optional offset and limit numbers that work the same as the limit helper above but in reverse.
 
 **Usage:**
 
@@ -25,6 +33,8 @@
 **Other Dependencies:** N/A
 
 ## Where
+
+Accepts a collection, a key property name and a value. Filters the collection (using *underscore's/lodash's* _.where) to the objects matching the key value combination and loops over those object only.
 
 **Usage:**
 
