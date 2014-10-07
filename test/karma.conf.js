@@ -1,7 +1,7 @@
 module.exports = function(config) {
     config.set({
         // base path, that will be used to resolve files and exclude
-        basePath    : '',
+        basePath    : '../',
 
         // frameworks to use
         frameworks  : [ 'mocha', 'chai' ],
@@ -9,32 +9,37 @@ module.exports = function(config) {
         // list of files / patterns to load in the browser
         files: [
             {
-                pattern : 'bower_components/handlebars/handlebars.js',
+                pattern : 'test/bower_components/handlebars/handlebars.js',
                 included: true,
                 served: true
             },
             {
-                pattern : 'bower_components/moment/moment.js',
-                included: true,
-                served: true
-            },
-            /*{
-                pattern : 'bower_components/underscore/underscore.js',
-                included: true,
-                served: true
-            },*/
-            {
-                pattern : 'specs/**/*.js',
+                pattern : 'test/bower_components/moment/moment.js',
                 included: true,
                 served: true
             },
             {
-                pattern : '../src/**/*.js',
+                pattern : 'test/bower_components/underscore/underscore.js',
                 included: true,
                 served: true
             },
             {
-                pattern : 'specRunner.js',
+                pattern : 'test/bower_components/pagedown/Markdown.Converter.js',
+                included: true,
+                served: true
+            },
+            {
+                pattern : 'test/specs/**/*.js',
+                included: true,
+                served: true
+            },
+            {
+                pattern : 'src/**/*.js',
+                included: true,
+                served: true
+            },
+            {
+                pattern : 'test/specRunner.js',
                 included: true,
                 served: true
             }
@@ -48,12 +53,12 @@ module.exports = function(config) {
         reporters   : [ 'dots', 'coverage' ] ,
 
         preprocessors   : {
-            '../src/**/*.js'   : [ 'coverage' ]
+            'src/**/*.js'   : [ 'coverage' ]
         },
 
         coverageReporter    : {
             type    : 'html',
-            dir     : '../coverage/browser/'
+            dir     : 'coverage/browser/'
         },
 
         // web server port
@@ -77,7 +82,7 @@ module.exports = function(config) {
         // - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
         // - PhantomJS
         // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
-        browsers    : [ 'Chrome' , 'ChromeCanary', 'Firefox', 'Opera', 'Safari' ],
+        browsers    : [ 'Chrome', 'ChromeCanary', 'Firefox', 'Opera', 'Safari' ],
 
         // If browser does not capture in given timeout [ms], kill it
         captureTimeout: 120000,
