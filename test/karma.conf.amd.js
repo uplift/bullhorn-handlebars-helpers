@@ -25,7 +25,7 @@ module.exports = function(config) {
             },
             {
                 pattern : 'test/bower_components/pagedown/Markdown.Converter.js',
-                included: true,
+                included: false,
                 served: true
             },
             {
@@ -82,7 +82,7 @@ module.exports = function(config) {
         // - Safari (only Mac; has to be installed with `npm install karma-safari-launcher`)
         // - PhantomJS
         // - IE (only Windows; has to be installed with `npm install karma-ie-launcher`)
-        browsers    : [ 'Chrome' , 'ChromeCanary', 'Firefox', 'Opera', 'Safari' ],
+        browsers    : [ 'Chrome' ],// , 'ChromeCanary', 'Firefox', 'Opera', 'Safari' ],
 
         // If browser does not capture in given timeout [ms], kill it
         captureTimeout: 120000,
