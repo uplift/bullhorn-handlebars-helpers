@@ -5,7 +5,7 @@
     "Uplift <git@upliftingcode.com>"
   ],
   "description": "A collection of handlebars helpers",
-  "script": {
+  "scripts": {
     "test": "gulp test-node"
   },
   "main": "index.js",
@@ -38,7 +38,7 @@
     "chai": "^1.9.1",
     "express": "^4.8.0",
     "gulp": "^3.8.8",
-    "gulp-coverage": "^0.2.26",
+    "gulp-coverage": "^0.3.31",
     "gulp-jscs": "^1.1.2",
     "gulp-jshint": "^1.8.4",
     "gulp-lintspaces": "^0.2.1",
