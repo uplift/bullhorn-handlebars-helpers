@@ -4,6 +4,7 @@
 [![NPM version](https://badge.fury.io/js/bullhorn-handlebars-helpers.svg)](http://badge.fury.io/js/bullhorn-handlebars-helpers)
 [![Dependency Status](https://david-dm.org/uplift/bullhorn-handlebars-helpers.svg)](https://david-dm.org/uplift/bullhorn-handlebars-helpers)
 [![devDependency Status](https://david-dm.org/uplift/bullhorn-handlebars-helpers/dev-status.svg)](https://david-dm.org/uplift/bullhorn-handlebars-helpers#info=devDependencies)
+[![Build Status](https://travis-ci.org/uplift/bullhorn-handlebars-helpers.svg)](https://travis-ci.org/uplift/bullhorn-handlebars-helpers)
 
 A collection of handlebars helpers to be used with [Handlebars](http://handlebarsjs.com/) templating.
 
