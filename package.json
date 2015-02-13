@@ -29,7 +29,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "handlebars": "^2.0.0",
+    "handlebars": "^3.0.0",
     "moment": "^2.8.3",
     "pagedown": "^1.1.0",
     "underscore": "^1.7.0"
