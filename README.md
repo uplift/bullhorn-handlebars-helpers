@@ -40,7 +40,7 @@ Alternatively you can register all helpers at once by requiring the bullhorn obj
 In a browser environment, just include the script to the helper as a script tag after the inclusion of the Handlebars script tag. (Some helpers require other libraries to be included before the helpers inclusion)
     
     <script src="bower_components/handlebars/handlebars.js"></script>
-    <script src="bower_components/bullhorn/src/array/join.js"></script>
+    <script src="bower_components/bullhorn-handlebars-helpers/src/array/join.js"></script>
 
 The helper will be registered on the handlebars object inside the script and a standalone function will be attached to a global Bullhorn object incase it is required outside of a handlebars template.  The above script tag would be accessible from Bullhorn.join.
 
@@ -55,7 +55,7 @@ In an AMD environment, load the helper as you would any other AMD module. You'll
     });
 
     // My Module
-    define( [ 'bower_components/src/array/join' ], function( join ) {
+    define( [ 'bower_components/bullhorn-handlebars-helpers/src/array/join' ], function( join ) {
         // Do something
     });
 
